@@ -2,6 +2,7 @@ package algo_lesson3_3;
 
 public class Main {
     public static void main(String[] args) {
+        //задание 3* Оптимизировать очередь, чтобы после удалния не оставалось незадействованных пустых ячеек
         testQueue();
     }
 
