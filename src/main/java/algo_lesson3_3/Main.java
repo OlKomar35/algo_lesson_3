@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //задание 3* Оптимизировать очередь, чтобы после удалния не оставалось незадействованных пустых ячеек
         testQueue();
+        
     }
 
     public static void testQueue() {
@@ -15,6 +16,7 @@ public class Main {
         queue.insert(4);
         queue.insert(5);
         queue.insert(6);
+        //
         queue.display();
         System.out.println("remove: "+queue.remove());
         queue.display();
